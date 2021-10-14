@@ -13,14 +13,14 @@ def osszaadas(a, b):
 
 osszaadas(5,6)
 
-# Írj egy függvényt ami vissszaadja hogy a paraméterként átadott szöveg hány sapce karaktert tartalmaz
+# Írj egy függvényt ami vissszaadja hogy a paraméterként átadott szöveg hány space karaktert tartalmaz
 
 def mennyi_space(s):
     count = 0
     for c in s:
-        if C == " ":
+        if c == " ":
             count +=1
-
+    return s
 
 # Írj egy függvényt ami a paraméterként átadott list átlagát adja vissza
 

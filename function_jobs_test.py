@@ -1,4 +1,4 @@
-from function_jobs import osszaadas
+from function_jobs import osszaadas, mennyi_space, count_params
 
 
 def test_osszaadas(): #függvény teszteset
@@ -13,3 +13,10 @@ def test_osszaadas2(): #függvény teszteset
 def test_osszaadas3(): #függvény teszteset
     result = osszaadas(-5, -6)# tesztelendő függvény meghívása
     assert result == -11
+
+def test_mennyi_space():
+       assert mennyi_space("an ya") == 1
+
+def test_count_params():
+    result = count_params("almakorte")
+    assert result == 4
