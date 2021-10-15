@@ -1,0 +1,359 @@
+Microsoft Windows [Version 10.0.19043.1237]
+(c) Microsoft Corporation. Minden jog fenntartva.
+
+C:\Users\Training>python
+
+C:\Users\Training>python
+Python 3.9.7 (tags/v3.9.7:1016ef3, Aug 30 2021, 20:19:38) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+>>>
+>>> 1
+1
+>>> "alma"
+'alma'
+>>> 1,34
+(1, 34)
+>>> 13.4
+13.4
+>>> 3.33333333333333
+3.33333333333333
+>>>
+>>>
+>>> print (5 + 8 )
+13
+>>> print (Benovics András)
+  File "<stdin>", line 1
+    print (Benovics András)
+                    ^
+SyntaxError: invalid syntax
+>>> print ("Benovics András")
+Benovics András
+>>>
+>>>
+>>> 10 + 60
+70
+>>> True
+True
+>>> true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined
+>>> not False
+True
+>>> -100
+-100
+>>> 6*5
+30
+>>> 10/5
+2.0
+>>> 10/3
+3.3333333333333335
+>>> print(5+6)
+11
+>>> print 5 + 6
+  File "<stdin>", line 1
+    print 5 + 6
+          ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(5 + 6)?
+>>> print (5 + 6)
+11
+>>> valami "Kufli"
+  File "<stdin>", line 1
+    valami "Kufli"
+           ^
+SyntaxError: invalid syntax
+>>> valami= "Kufli"
+>>> print (valami)
+Kufli
+>>> valami= "Ku    fli"
+>>> print (valami)
+Ku    fli
+>>> valami= "Kufli"
+>>>
+>>> print (5 + 6)
+11
+>>> print (valami)
+Kufli
+>>>
+>>> age = 70
+>>> age
+70
+>>> print(age)
+70
+>>> "valami" + "ezaz"
+'valamiezaz'
+>>> valami2 = pofanka
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'pofanka' is not defined
+>>> valami2 = "pofanka"
+>>>
+>>> valami2
+'pofanka'
+>>> valami = "zodon"
+>>> valami
+'zodon'
+>>>
+>>> valami
+'zodon'
+>>> valami = valami2
+>>>
+>>> valami
+'pofanka'
+>>> valami2
+'pofanka'
+>>>
+>>>
+>>>
+>>> age2 = age
+>>>
+>>> age
+70
+>>> age2
+70
+>>>
+>>> age2 = 20
+>>>
+>>> age
+70
+>>> age2
+20
+>>>
+>>> age
+70
+>>>
+>>> age + 5
+75
+>>> age
+70
+>>> age + 5
+75
+>>>
+>>> 5 + age
+75
+>>> age + age2
+90
+>>> age + valami
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> 7 7 10
+  File "<stdin>", line 1
+    7 7 10
+      ^
+SyntaxError: invalid syntax
+>>> 7 = 10
+  File "<stdin>", line 1
+    7 = 10
+    ^
+SyntaxError: cannot assign to literal
+>>>
+>>> 7aa = ds
+  File "<stdin>", line 1
+    7aa = ds
+     ^
+SyntaxError: invalid syntax
+>>>
+>>>
+>>>
+>>> aa = 10
+>>> aaa = 10
+>>> aaa += 5
+>>>
+>>> aaa
+15
+>>>
+>>> aaa += 10
+>>>
+>>>
+>>> aaa
+25
+>>> valami
+'pofanka'
+>>> valami += zodon
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'zodon' is not defined
+>>> valami += "zodon"
+>>>
+>>>
+>>> valami
+'pofankazodon'
+>>>
+>>>
+>>> bbb = aaa + 10 + 20 * 6
+>>>
+>>>
+>>> bbb
+155
+>>>
+>>>
+>>>
+>>>
+>>> org = "valami" + 360
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>>
+>>> type(valami)
+<class 'str'>
+>>> type(360)
+<class 'int'>
+>>> type(3.14)
+<class 'float'>
+>>> org = "valami" + "360"
+>>>
+>>> org
+'valami360'
+>>>
+>>> type("5")
+<class 'str'>
+>>>
+>>> str((5)
+...
+...
+KeyboardInterrupt
+>>>
+>>> str(5)
+'5'
+>>>
+>>> org = "valami"  + str(360)
+>>> org
+'valami360'
+>>> type(str(360))
+<class 'str'>
+>>>
+>>> age = 15
+>>> typ(age)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'typ' is not defined
+>>> type(age)
+<class 'int'>
+>>>
+>>>
+>>> "valami" + age
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>>
+>>> "valami" + str(age)
+'valami15'
+>>>
+>>>
+>>> "666"
+'666'
+>>> evil = int("666")
+>>>
+>>> evil
+666
+>>> type(evil)
+<class 'int'>
+>>>
+>>> evil = int("66kk6")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '66kk6'
+>>>
+>>>
+>>> type(True)
+<class 'bool'>
+>>>
+>>>
+>>> "a" * 10
+'aaaaaaaaaa'
+>>> "valami" * 5
+'valamivalamivalamivalamivalami'
+>>> "valami" / 5
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+>>>
+>>>
+>>> org = "Training"
+>>>
+>>> org
+'Training'
+>>> type(org)
+<class 'str'>
+>>>
+>>> org = 360
+>>> org
+360
+>>> type(org)
+<class 'int'>
+>>>
+>>>
+>>> kufli_neve = "pofanka"
+>>>
+>>>
+>>>
+>>> x = y = 8
+>>> x
+8
+>>> y
+8
+>>> a, b = 1, 2
+>>> a
+1
+>>> b
+2
+>>>
+>>>
+>>> a, b, c = 3, 5, 7
+>>>
+>>> a
+3
+>>> b
+5
+>>> c
+7
+>>> a - b/c
+2.2857142857142856
+>>> a - (b/c)
+2.2857142857142856
+>>>
+>>> org = "training"  + str(360)
+>>>
+>>> org
+'training360'
+>>> org = "training"  + str(36*10)
+>>>
+>>> org
+'training360'
+>>>
+>>> 10 % 1
+0
+>>> 10 % 9
+1
+>>>
+>>>
+>>> a = 5
+>>>
+>>> a % 2
+1
+>>> a = 8
+>>>
+>>> a % 2
+0
+>>>
+>>>
+>>> r , pi = 12, 3.14159
+>>> a = pi * r**2
+>>>
+>>> a
+452.38896
+>>> type (r), type(pi), type(a)
+(<class 'int'>, <class 'float'>, <class 'float'>)
+>>>
+>>> xxx
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'xxx' is not defined
+>>> m = xxx
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'xxx' is not defined
+>>>
+>>>

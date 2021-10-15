@@ -1,0 +1,96 @@
+java / python  - interpretálás van, JIT (just in compiler) azaz ugyanoly gyors mint a C ahol natív kódot készít a gép nyelvére
+cmd - python - 3.x verzió ok - de nyilván a legujabb a legjobb
+REPL - read eval print loop
+aminek saját értéke van, az egy LITERÁL 
+1, 133 ezek egész -
+ "alma"I ez szöveg (string) lehet szimplával is 'xx' v "xx" 
+ 1.35 - lebegőpontos
+ 
+ https://mek.oszk.hu/08400/08435/08435.pdf (v2 könyv, nem az igazi már)
+ 
+ portábilis - minden oprendszeren fut
+ 
+ kilépés exit() v ctrl+D
+ 
+ lehet több szálú programot írni ofkorsz (párhuzamos futtatás e.g. webes almalmazásnál köll)
+ Objektum orientált!
+ 
+ tiobe index (értékelési rendszer prog nyelvek között)
+ 
+ forráskódra netről figyelni 2 v 3 verzió!
+ 
+ szemantikai hiba - lefut hiba nélkül, de mást csinálja értelmebeli hiba)
+ 
+ OPERÁTOROK (PL +) AMI KÖRÜLÖTTE VAN, OPERANDUS - 10+60 
+ logikai literál - True (ezeket mindig nagy kezdővel)
+ 
+ case sensivite (nem mind1 h True v true
+ 
+ not False  v True - negál ugye
+ 
+ / osztás a 2esben EGÉSZ osztás, a 3masban már "rendes"
+ print _ 5 + 6  - ez kettes v print (55 + 6 )  - ez 3masban
+ 
+ 
+ literál fix érték	
+ 
+ változó - értéke módosítható 
+ Neve és értéke van
+ egyszerű változóba 1 érték
+ többértékes változó - adatszerkezet
+ 
+ 
+ 
+ coding convension - pep 8
+ 
+ + jel stringeket összefűz ( valami + eaaz - valamiezaz
+ 
+ változó értékét felül lehet írni
+ 
+ változó 1. karatere nem lehet szám pl 7dsaa nem jó adas7 már igen s külön szám se lehet pl 7=5 se jó
+ 
+ 
+ += - aaa += 10 ua. mint aaa = aaa + 10
+ 
+ " " string
+ 360 integer 
+ 3.14 float 
+ type-al ki lehet írni 
+ 
+  org = "training"  + str(36*10)
+  
+  
+            traning360
+           |  
+   "traning"     |"360"
+      |str 
+      |    
+     360
+      | 
+  36     10
+  
+  szoftwefejlesztés és önfejlesztés podcast !!!
+  
+  pycharm community :
+  
+ NE a venv-en belül hozzunk létre hanem az első soron
+ ReferenceCard.pdf kinyomtatni
+ 
+ ctrl+D dupláz
+ code - reformat code 
+ 
+ lista - módosítható adatsor 			names = ["John" , "Jane"]
+ tuple - nem módosítható adatsor 		names = ( "John" , "Jane")
+ szótár - szó párok halmaza				
+ 
+ modult importálni alt+enter
+ from math import *  - az összeset
+ 
+ https://mtmi.unideb.hu/pluginfile.php/554/mod_resource/content/3/thinkcspy3.pdf
+ 
+ 
+ pytest - tesztelésre ofkorsz 
+ 
+ codewars
+ https://www.mockaroo.com/
+ 
